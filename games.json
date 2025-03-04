@@ -1371,5 +1371,10 @@
     "name": "Watermelon Game",
     "directory": "watermelongame",
     "image": "assets/sprites/tittle.png"
+  },
+  {
+    "name": "Krunker.io",
+    "directory": "krunker",
+    "image": "logo.png"
   }
 ]
