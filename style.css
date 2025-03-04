@@ -40,7 +40,6 @@ footer {
 header {
   top: 0;
   border-radius: 0 0 20px 20px;
-  position: fixed;
   box-shadow: 0 5px 10px var(--uibg);
 }
 footer.noscroll {
