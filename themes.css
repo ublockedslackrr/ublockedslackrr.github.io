@@ -76,7 +76,7 @@ body[theme=vaporwave] {
 }
 body[theme=graduation] {
     --inputbg: #f080ff;
-    --inputborder: #000;
+    --inputborder: #47afff;
     --uibg: #9742ff;
     --textcolor: #fff;
     --bg: url("themebgs/graduation.png"), #61437a;
