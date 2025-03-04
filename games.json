@@ -1370,5 +1370,10 @@
     "name": "Krunker.io",
     "directory": "krunker",
     "image": "logo.png"
+  },
+  {
+    "name": "Shell Shockers.io",
+    "directory": "shellshockers",
+    "image": "logo.png"
   }
 ]
