@@ -1,6 +1,6 @@
 [
       {
-    "name": "EaglerCraft",
+    "name": "Eaglercraft 1.5.2",
     "image": "icon.png",
     "directory": "eaglercraft",
     "recommended": "1"
@@ -171,12 +171,6 @@
     "name": "Resent Client",
     "directory": "online-mc",
     "image": "logo.png"
-  },
-  {
-    "name": "Eaglercraft 1.5.2",
-    "directory": "offline-mc",
-    "image": "logo.png",
-    "recommended": "1"
   },
   {
     "name": "Friday Night Funkin",
