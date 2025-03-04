@@ -80,6 +80,12 @@ body[theme=graduation] {
     --uibg: #9742ff;
     --textcolor: #fff;
     --bg: url("themebgs/graduation.png"), #61437a;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     /* https://wallhaven.cc/w/l82kpr */
     --shadow: 0px 0px 4px #000000;
 }
