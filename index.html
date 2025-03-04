@@ -7,85 +7,124 @@
     <!-- initialize externals -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
     
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/dark.css" />
      <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
-  
-
     <!-- initialize my stuff -->
     <script src="/js/all.js"></script>
+    <script src="/js/games.js"></script>
+    <script src="/js/search.js"></script>
     <script src="/js/main.js"></script>
 <script src="/js/themes.js"></script>
-    <script src="/js/randomquote.js"></script>
-    <link rel="stylesheet" href="/themes.css" />
-    <link rel="stylesheet" href="/style.css" />
+    <script src="/js/cookie.js"></script>
 
 
-
+    
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
       new Crate({
           server: '1148719137238040606', // Selenite
           channel: '1173731814196645909' // #commands
       })
     </script>
-
+    <link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/themes.css" />
 
     <!-- seo + other things -->
-    <title>Selenite</title>
+    <title>Projects | Selenite</title>
     <link rel="icon" href="/favicon.ico" />
-    <meta
-      name="keywords"
-      content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git, gaming, internet, website, best, site, cool, free games"
-    />
 
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- toastify -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(() => {
+          const container = document.querySelector("alerts");
+          const safemodealert = container.querySelector(`sl-alert.safemodeinfo`);
+          const tooltip = document.querySelector('.manual-tooltip');
+          if (Math.random() < 0.33) {
+            safemodealert.toast();
+          } else if(Math.random() < 0.5) {
+            tooltip.open = !tooltip.open;
+            setTimeout(() => {
+              tooltip.open = !tooltip.open;
+            }, 5000)
+          }
+        }, 500);
+      });
+    </script>
   </head>
   <alerts>
-    <sl-dialog label="Welcome to Selenite!" class="dialog-width" style="--width: 60vw;display:none;">
-      Thank you for choosing Selenite! You will be able to play over 150 high quality games, and we have many tools to make your experience better.
-      <br>
-      Wanting to transfer your data from another website? Try the transfer utility in the footer!
-      <br>
-      Want to support the development of Selenite? Join the <a href="https://discord.gg/7jyufnwJNf">Discord</a> and support us on <a href="https://patreon.com/selenitecc">Patreon</a>!
-      <br>
-      Learn more about Selenite at the about page in the header!
-      <br>
-      Try out the Selenite Minified bookmarklet in the bookmarklets page!
-      <br>
-      Have a great day!
-      <sl-button slot="footer" variant="neutral">Close</sl-button>
-    </sl-dialog>
+    <sl-alert class="safemodeinfo" variant="primary" duration="6000" closable>
+      <sl-icon slot="icon" name="info-circle"></sl-icon>
+      <strong>Pro Tip:</strong><br />
+      Type "safemode" while in any game to go to Google. Go to settings to change this.
+    </sl-alert>
   </alerts>
-  <body id="noscroll">
+  <body>
     <header>
       <a href="/index.html">Home</a>
       <a href="/bookmarklets.html">Bookmarklets</a>
-      <a href="/projects.html">Games</a>
+            <a href="/projects.html">Games</a>
       <a href="/settings.html">Settings</a>
       <a href="/support.html">Support</a>
+      <a id="blank" href="#">Open Blank</a>
       <a href="/about.html">About</a>
+      
     </header>
-    <main id="main" class="noscroll">
-      <h1>selenite.</h1>
-      <p id="randomquote">...</p>
+    <main>
+      <div id="adcontainer">
+        <h3><a href="ad.html">AD (click to read more):</a></h3>
+        <script type="text/javascript">
+          atOptions = {
+            'key' : 'a4e483c304d8788fbb3f86d0fccd7dd2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+          document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/a4e483c304d8788fbb3f86d0fccd7dd2/invoke.js"></scr' + 'ipt>');
+        </script>
+      </div>
+      <input class="hiddenUpload" type="file" accept=".save" hidden />
+
+
+      <input type="text" id="gamesearch" placeholder="Type here to search.." />
       <div class="samerow">
-        <div class="img-container">
-          <a href="https://patreon.com/selenitecc"><img src="img/Digital-Patreon-Logo_White.png"></a>
-        </div>
-        <div class="img-container">
-          <a href="projects.html"><img src="img/baseline_sports_esports_white_48dp.png"></a>
-        </div>
-        <div class="img-container">
-          <a href="https://discord.gg/7jyufnwJNf"><img src="img/discord-mark-white.png"></a>
-        </div>
+        <sl-tooltip content="Remember to download your save, so you don't lose your progress." trigger="manual" class="manual-tooltip">
+          <button onclick="downloadMainSave()">Download Save</button>
+        </sl-tooltip>
+        <button id="upload" onclick="uploadMainSave()">Upload Save</button>
+      </div>
+      <div class="samerow">
+        <button id="random" onclick="selectRandomGame()">
+          Play a random game!
+        </button>
+        <button id="recommend" onclick="recommendedGames()">
+          Click to view recommended games!
+        </button>
+      </div>
+
+      <h2>Pinned Games</h2>
+      <p id="pinnedmessage">pin some games for things to show up here!</p>
+      <div id="pinned"></div>
+      
+
+      <h2>All Games</h2>
+      <div id="games">
+        <a href="/suggest.html"><div class="suggest"><img src="img/addlink.svg" alt="Add Game logo" style="filter: invert(1);"><h1>Suggest a game!</h1></div></a>
+        <p id="message">games loading..</p>
       </div>
       <div id="adcontainer">
         <h3><a href="ad.html">AD (click to read more):</a></h3>
         <script async="async" data-cfasync="false" src="//pl22225360.toprevenuegate.com/92108816b5da54426d1639bcbfb5785c/invoke.js"></script>
         <div id="container-92108816b5da54426d1639bcbfb5785c"></div>
       </div>
+
     </main>
-    
-    <footer class="noscroll">
+
+    <footer>
       <a href="https://github.com/selenite-cc/Selenite">Source Code</a>
       <a id="panicmode">Panic Mode</a>
       <a href="/transfer.html">Transfer your data</a>
@@ -94,6 +133,5 @@
       <a href="/suggest.html">Suggestions</a>
       <a href="/contact.html">Contact</a>
     </footer>
-    
   </body>
 </html>
