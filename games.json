@@ -1,5 +1,10 @@
 [
-
+      {
+    "name": "EaglerCraft",
+    "image": "icon.png",
+    "directory": "eaglercraft",
+    "recommended": "1"
+  },
       {
     "name": "Deal or No Deal",
     "image": "cover.svg",
