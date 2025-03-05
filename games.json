@@ -1381,5 +1381,10 @@
     "name": "Shell Shockers.io",
     "directory": "shellshockers",
     "image": "icon.png"
+  },
+  {
+    "name": "florr.io",
+    "directory": "florr.io",
+    "image": "logo.png"
   }
 ]
