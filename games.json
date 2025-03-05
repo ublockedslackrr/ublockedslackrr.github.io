@@ -1,5 +1,11 @@
 [
       {
+    "name": "WhatTime.zo",
+    "image": "icon.png",
+    "directory": "WhatTime.zo",
+    "recommended": "1"
+  },
+      {
     "name": "Eaglercraft 1.5.2",
     "image": "icon.png",
     "directory": "eaglercraft",
