@@ -79,7 +79,7 @@ body[theme=graduation] {
     --inputborder: #47afff;
     --uibg: #9742ff;
     --textcolor: #fff;
-    --bg: url("themebgs/graduation.png"), #61437a;
+    --bg: url("themebgs/graduation.png"), #000;
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
