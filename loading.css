@@ -32,7 +32,7 @@ section p {
 	z-index: 100000000;
 }
 .preloader:before {
-	content: 'Loading...';
+	content: '';
 	position: absolute;
 	font-size: 12em;
 	font-weight: 900;
@@ -40,7 +40,7 @@ section p {
 	color: rgba(255,255,255,.03);
 }
 .preloader.active {
-	transform: translateY(-100vh);
+	transform: translateY(100vh);
 	transition: ease-in-out 2s;
 	transition-delay: 1s;
 }
