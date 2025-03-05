@@ -1,14 +1,8 @@
 [
       {
-    "name": "Roblox",
-    "image": "icon.png",
-    "directory": "roblox",
-    "recommended": "1"
-  },
-      {
     "name": "Eaglercraft 1.5.2",
     "image": "icon.png",
-    "directory": "eaglercraft/Eagler.html",
+    "directory": "eaglercraft",
     "recommended": "1"
   },
       {
