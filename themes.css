@@ -10,6 +10,7 @@ body[theme=custom] {
     --inputborder: #5a189a;
     --uibg: #240046;
     --textcolor: #fff;
+    --bg: #10002b;
 }
 body[theme=main] {
     --inputbg: #3c096c;
