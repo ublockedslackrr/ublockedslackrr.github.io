@@ -6,20 +6,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-section {
-    padding: 100px;
-}
-section h2 {
-    font-size: 4em;
-    color: #3a78f5;
-}
-section h2 span {
-    display: block;
-    font-size: 0.5em;
-}
-section p {
-    font-size: 1.2em;
-}
 .preloader {
 	position: fixed;
 	top: 0;
