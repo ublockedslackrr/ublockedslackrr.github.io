@@ -32,7 +32,7 @@ section p {
 	z-index: 100000000;
 }
 .preloader:before {
-	content: '';
+	content: 'Sl4ckrr';
 	position: absolute;
 	font-size: 12em;
 	font-weight: 900;
