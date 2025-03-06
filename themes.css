@@ -10,14 +10,15 @@ body[theme=custom] {
     --inputborder: #5a189a;
     --uibg: #240046;
     --textcolor: #fff;
-    --bg: url("themebgs/tylerbday.png"), rgb(59, 67, 78);
 }
 body[theme=main] {
     --inputbg: #3c096c;
     --inputborder: #5a189a;
     --uibg: #240046;
     --textcolor: #fff;
-    --bg: #10002b;
+    --bg: url("themebgs/tylerbday.png"), rgb(59, 67, 78);
+    /* https://wallhaven.cc/w/l82kpr */
+    --shadow: 0px 0px 4px #000000;
 }
 body[theme=light] {
     --inputbg: #bbbbbb;
