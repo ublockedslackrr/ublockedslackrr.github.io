@@ -17,9 +17,7 @@ body[theme=main] {
     --inputborder: #5a189a;
     --uibg: #240046;
     --textcolor: #fff;
-    --bg: url("themebgs/tylerbday.png"), rgb(59, 67, 78);
-    /* https://wallhaven.cc/w/l82kpr */
-    --shadow: 0px 0px 4px #000000;
+    --bg: #10002b;
 }
 body[theme=light] {
     --inputbg: #bbbbbb;
