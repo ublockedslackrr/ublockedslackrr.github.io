@@ -24,6 +24,18 @@
     "recommended": "1"
   },
       {
+    "name": "Diep.io",
+    "image": "diep.png"
+    "directory": "diep",
+    "recommended": "1"
+  },
+     {
+    "name": "Wings.io",
+    "image": "wings.jpeg"
+    "directory": "wings",
+    "recommended": "1"
+  },
+     {
     "name": "Deal or No Deal",
     "image": "cover.svg",
     "directory": "deal",
@@ -1408,16 +1420,6 @@
     "name": "Agar.io",
     "directory": "agar",
     "image": "agar.png"
-  },
-  {
-    "name": "Wings.io",
-    "directory": "wings",
-    "image": "wings.jpeg"
-  },
-  {
-    "name": "",
-    "directory": "",
-    "image": ""
   },
   {
     "name": "",
