@@ -1,8 +1,8 @@
 [
       {
-    "name": "HaxeFlixer",
+    "name": "HaxeFlixel",
     "image": "Haxe.png",
-    "directory": "haxeflixer",
+    "directory": "haxeflixel",
     "recommended": "1"
   },
       {
