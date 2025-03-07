@@ -5,7 +5,7 @@ a selenite repo for more games and unblocked links,custom themes.
   <img src="https://contrib.rocks/image?repo=ublockedslackrr/ublockedslackrr.github.io" />
 </a>
 
-- thanks to @WilardzySenpai for the loading bar
+- thanks to @WilardzySenpai for the loading screen on Games.html
 
 - sky and everyone who helped produce the project
   
