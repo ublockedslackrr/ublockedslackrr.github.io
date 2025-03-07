@@ -1,5 +1,11 @@
 [
       {
+    "name": "HaxeFlixer",
+    "image": "Haxe.png",
+    "directory": "haxeflixer",
+    "recommended": "1"
+  },
+      {
     "name": "WhatTime.zo",
     "image": "icon.png",
     "directory": "WhatTime.zo",
@@ -25,13 +31,13 @@
   },
       {
     "name": "Diep.io",
-    "image": "diep.png"
+    "image": "diep.png",
     "directory": "diep",
     "recommended": "1"
   },
      {
     "name": "Wings.io",
-    "image": "wings.jpeg"
+    "image": "wings.jpeg",
     "directory": "wings",
     "recommended": "1"
   },
