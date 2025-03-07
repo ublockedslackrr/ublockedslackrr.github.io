@@ -6,6 +6,12 @@
     "recommended": "1"
   },
       {
+    "name": "Realmz.io",
+    "image": "icon.jpeg",
+    "directory": "realmz",
+    "recommended": "1"
+  },
+      {
     "name": "Eaglercraft 1.5.2",
     "image": "icon.png",
     "directory": "eaglercraft",
