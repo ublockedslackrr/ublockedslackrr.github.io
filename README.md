@@ -1,5 +1,6 @@
 # slackrrgames
 a selenite repo for more games and unblocked links,custom themes.
+## GO JOINN THE DISC SERVER FOR SELENNITE AND SUPPORT THEIR HARD WORK!
 # credits
 <a href="https://github.com/ublockedslackrr/ublockedslackrr.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ublockedslackrr/ublockedslackrr.github.io" />
