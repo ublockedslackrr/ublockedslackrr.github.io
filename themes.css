@@ -20,11 +20,11 @@ body[theme=main] {
     --bg: #10002b;
 }
 body[theme=light] {
-    --inputbg: #bbbbbb;
-    --inputborder: #e6e6e6;
-    --uibg: #b3b3b3;
-    --textcolor: #1a1a1a;
-    --bg: #c5c5c5;
+    --inputbg: #d2d3db;
+    --inputborder: #9394a5;
+    --uibg: #9394a5;
+    --textcolor: #000;
+    --bg: #e4e5f1;
 }
 body[theme=dark] {
     --inputbg: #15292B;
