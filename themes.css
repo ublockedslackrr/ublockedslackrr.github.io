@@ -27,11 +27,11 @@ body[theme=light] {
     --bg: #e4e5f1;
 }
 body[theme=dark] {
-    --inputbg: #15292B;
-    --inputborder: #0A0A0A;
-    --uibg: #121212;
+    --inputbg: #333333;
+    --inputborder: #444444;
+    --uibg: #242424;
     --textcolor: #fff;
-    --bg: #40444B;
+    --bg: #0c0c0c;
 }
 body[theme=egamepass] {
     --inputbg: #4f6ed1;
