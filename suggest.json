@@ -1,1 +1,7 @@
-      <a href="/suggest.html"><div class="suggest"><img src="img/addlink.svg" alt="Add Game logo" style="filter: invert(1);"><h1>Suggest a game!</h1></div></a>
+[
+      {
+    "name": "Suggest a game!",
+    "directory": "/suggest.html",
+    "image": "img/addlink.svg"
+  }
+]      
