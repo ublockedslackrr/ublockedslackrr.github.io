@@ -6,6 +6,12 @@
     "recommended": "1"
   },
       {
+    "name": "Lordz.io",
+    "image": "lordz.png",
+    "directory": "lordz",
+    "recommended": "1"
+  },
+      {
     "name": "Realmz.io",
     "image": "icon.jpeg",
     "directory": "realmz",
@@ -1399,9 +1405,9 @@
     "image": "eggy.png"
   },
   {
-    "name": "",
-    "directory": "",
-    "image": ""
+    "name": "Agar.io",
+    "directory": "agar",
+    "image": "agar.png"
   },
   {
     "name": "",
