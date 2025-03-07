@@ -24,10 +24,15 @@
 <link rel="stylesheet" href="/pfp.css" />
 <link rel="stylesheet" href="/pfp.js" />
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+
 
 
     <!-- seo + other things -->
-    <title>Settings | SlackrrGames.io</title>
+    <title>Profile | SlackrrGames.io</title>
     <link rel="icon" href="/favicon.ico" />
 
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -48,46 +53,58 @@
       <a href="/about.html">About</a>
       
     </header>
+<main>
+  <div class="profile-card">
+    <!-- Profile Image -->
+    <div class="image">
+      <img src="profile.jpg" alt="Profile Image" class="profile-img" />
+    </div>
 
-    <main>
-      <h1>Settings</h1>
-      <form action="javascript:setCloakCookie();">
-        <h3>Website Name</h3>
-        <input type="text" id="webname" name="webname" placeholder="Selenite" /><br />
-        <h3>Website Icon</h3>
-        <input type="text" id="webicon" name="webicon" placeholder="https://selenite.cc/" /><br />
-        <h3>Or select a preset:</h3>
-        <select id="presetCloaks">
-          <option value="google">Google</option>
-          <option value="canvas">Canvas</option>
-          <option value="desmos">Desmos</option>
-          <option value="drive">Google Drive</option>
-          <option value="classroom">Google Classroom</option>
-          <option value="newtab">New Tab</option>
-          <option value="docs">Google Docs</option>
-          <option value="edpuzzle">Edpuzzle</option>
-          <option value="khan">Khan Academy</option>
-          <option value="quizlet">Quizlet</option>
-          <option value="schoology">Schoology</option>
-        </select><br />
-        <input id="websubmit" class="submit" type="submit" value="Set Tab Cloak" />
-      </form>
-      <button onclick="javascript:clearCloak();">Clear your current tab cloak</button>
-      <br />
-      <div class="samerow">
-      <input type="checkbox" id="discordIcon" name="discordIcon">
-      <label for="discordIcon">Disable Discord Icon</label><br>
+    <!-- Profile Details -->
+    <div class="text-data">
+      <span class="name">CodingLab</span>
+      <span class="job">YouTuber & Blogger</span>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="media-buttons">
+      <a href="#" style="background: #4267b2" class="link">
+        <i class="bx bxl-facebook"></i>
+      </a>
+      <a href="#" style="background: #1da1f2" class="link">
+        <i class="bx bxl-twitter"></i>
+      </a>
+      <a href="#" style="background: #e1306c" class="link">
+        <i class="bx bxl-instagram"></i>
+      </a>
+      <a href="#" style="background: #ff0000" class="link">
+        <i class="bx bxl-youtube"></i>
+      </a>
+    </div>
+
+    <!-- Subscribe and Message Buttons -->
+    <div class="buttons">
+      <button class="button">Subscribe</button>
+      <button class="button">Message</button>
+    </div>
+
+    <!-- Analytics -->
+    <div class="analytics">
+      <div class="data">
+        <i class="bx bx-heart"></i>
+        <span class="number">60k</span>
       </div>
-      <div class="samerow">
-        <input type="checkbox" id="blockClose" name="blockClose">
-        <label for="blockClose">Block tab from being closed</label><br>
+      <div class="data">
+        <i class="bx bx-message-rounded"></i>
+        <span class="number">20k</span>
       </div>
-      <div class="samerow">
-        <input type="checkbox" id="tabDisguise" name="tabDisguise">
-        <label for="tabDisguise">Disguise your tab when you click off (currently only Google)</label><br>
+      <div class="data">
+        <i class="bx bx-share"></i>
+        <span class="number">12k</span>
       </div>
-      <h3>Profile</h3>
-      <br />
+    </div>
+  </div>
+
     </main>
 
     <footer>
