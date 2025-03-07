@@ -1441,10 +1441,5 @@
     "name": "Slither.io",
     "directory": "slither",
     "image": "slither.png"
-  },
-  {
-    "name": "",
-    "directory": "",
-    "image": ""
   }
 ]
