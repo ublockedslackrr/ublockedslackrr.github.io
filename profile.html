@@ -18,7 +18,7 @@
 <script src="/js/themes.js"></script>
     <script src="/js/cloaks.js"></script>
     <script src="/js/themes.js"></script>
-<link rel="stylesheet" href="/themes.css" />
+<link rel="stylesheet" href="/profile.css" />
 <link rel="stylesheet" href="/style.css" />
 
 
@@ -47,57 +47,14 @@
     </header>
 
     <main>
-      <h1>Settings</h1>
-      <form action="javascript:setCloakCookie();">
-        <h3>Website Name</h3>
-        <input type="text" id="webname" name="webname" placeholder="Selenite" /><br />
-        <h3>Website Icon</h3>
-        <input type="text" id="webicon" name="webicon" placeholder="https://selenite.cc/" /><br />
-        <h3>Or select a preset:</h3>
-        <select id="presetCloaks">
-          <option value="google">Google</option>
-          <option value="canvas">Canvas</option>
-          <option value="desmos">Desmos</option>
-          <option value="drive">Google Drive</option>
-          <option value="classroom">Google Classroom</option>
-          <option value="newtab">New Tab</option>
-          <option value="docs">Google Docs</option>
-          <option value="edpuzzle">Edpuzzle</option>
-          <option value="khan">Khan Academy</option>
-          <option value="quizlet">Quizlet</option>
-          <option value="schoology">Schoology</option>
-        </select><br />
-        <input id="websubmit" class="submit" type="submit" value="Set Tab Cloak" />
-      </form>
-      <button onclick="javascript:clearCloak();">Clear your current tab cloak</button>
+      <h1>Profile</h1>
       <br />
-      <div class="samerow">
-      <input type="checkbox" id="discordIcon" name="discordIcon">
-      <label for="discordIcon">Disable Discord Icon</label><br>
-      </div>
-      <div class="samerow">
-        <input type="checkbox" id="blockClose" name="blockClose">
-        <label for="blockClose">Block tab from being closed</label><br>
-      </div>
-      <div class="samerow">
-        <input type="checkbox" id="tabDisguise" name="tabDisguise">
-        <label for="tabDisguise">Disguise your tab when you click off (currently only Google)</label><br>
-      </div>
-      <h3>Themes</h3>
+
+      <h3>profile pictures:</h3>
       <div class="samerow themebtns">
-        <button onclick="setTheme('main')" style="background-color:#CBC5EA; color: #fff; border: 5px solid #C4C6E7">slackrr.</button>
-        <button onclick="setTheme('light')" style="background-color: #bbbbbb; color: #1a1a1a; border: 5px solid #e6e6e6">light mode</button>
-        <button onclick="setTheme('dark')" style="background-color: #333333; color: #fff; border: 5px solid #444444">dark mode</button>
-        <button onclick="setTheme('egamepass')" style="background-color: #596eb1; color: #cbe0ff; border: 5px solid #5586e0">e-gamepass</button>
-        <button onclick="setTheme('cools1te')" style="background-color: #a134dc; color: #d3a4fa; border: 5px solid #b153e3">cools1te</button>
-        <button onclick="setTheme('sunset')" style="background-color: #537294; color: #fff; border: 5px solid #30719c">sunset</button>
-        <button onclick="setTheme('mountains')" style="background-color: #d37f7f; color: #fff; border: 5px solid #e28a8a">mountains</button>
-        <button onclick="setTheme('vaporwave')" style="background-color: #4b2d64; color: #fff; border: 5px solid #74568d">vaporwave</button>
-        <button onclick="setTheme('graduation')" style="background-image:url('themesbg/gradbear.png'); color: #fff;">graduation</button>
-        <button onclick="setTheme('late-registration')" style="background-image:url('themesbg/late.jpg'); color: #fff;">late registration</button>
-        <button onclick="setTheme('dropout')" style="background-image:url('themesbg/dropoutbutton.jpg'); color: #fff;">the collage dropout</button>
-        <button onclick="setTheme('tylerbirthday')" style="background-image:url('themesbg/tylerbday.png'); color: #fff;">tyler birthday!</button>
-        <button onclick="customTheme()">custom</button>
+        <button onclick="setTheme('empty')>Empty place holder.</button>
+
+        <button onclick="customTheme()">New:</button>
       </div>
       <div id="customMenu" style="display: none;">
         <p>Input BG Color</p>
@@ -119,18 +76,12 @@
     --bg: #000000; -->
       </div>
       <br />
-      <form action="javascript:setPanicMode();">
-        <h3 for="panic">Website URL</h3>
-        <input type="text" id="panic" name="panic" placeholder="https://google.com" /><br />
-        <input id="panic" class="submit" type="submit" value="Set Panic Mode" />
-      </form>
       <form action="javascript:setPassword();">
-        <h3 for="pass">Password to access website</h3>
+        <h3 for="pass">Password to access account</h3>
         <input type="text" id="pass" name="pass" placeholder="password" /><br />
-        <p>If a teacher tries to copy the URL from your browser, it will require a password to access the website.</p>
         <p>If you type a wrong password, you will be locked out for 10 minutes, likewise, if you type the right password, it'll work for 10 minutes.</p>
         <input id="setPass" class="submit" type="submit" value="Set Password" />
-        <button id="delPass" onclick="delPassword()">Delete Password</button>
+        <button id="delPass" onclick="delPassword()">Reset Password</button>
       </form>
     </main>
 
