@@ -9,6 +9,67 @@ $.getJSON("/games.json", function (data) {
 			}
 		}, 50);
 	}
+})
+	
+	;$.getJSON("/io.json", function (data) {
+	if (document.readyState === "complete") {
+		loadGames(data);
+	} else {
+		let areGamesReady = setInterval(() => {
+			if (document.readyState === "complete") {
+				loadGames(data);
+        clearInterval(areGamesReady);
+			}
+		}, 50);
+	}
+});
+$.getJSON("/fnaf.json", function (data) {
+	if (document.readyState === "complete") {
+		loadGames(data);
+	} else {
+		let areGamesReady = setInterval(() => {
+			if (document.readyState === "complete") {
+				loadGames(data);
+        clearInterval(areGamesReady);
+			}
+		}, 50);
+	}
+});
+$.getJSON("/poke.json", function (data) {
+	if (document.readyState === "complete") {
+		loadGames(data);
+	} else {
+		let areGamesReady = setInterval(() => {
+			if (document.readyState === "complete") {
+				loadGames(data);
+        clearInterval(areGamesReady);
+			}
+		}, 50);
+	}
+});
+$.getJSON("/emulated.json", function (data) {
+	if (document.readyState === "complete") {
+		loadGames(data);
+	} else {
+		let areGamesReady = setInterval(() => {
+			if (document.readyState === "complete") {
+				loadGames(data);
+        clearInterval(areGamesReady);
+			}
+		}, 50);
+	}
+});
+$.getJSON("/underrated.json", function (data) {
+	if (document.readyState === "complete") {
+		loadGames(data);
+	} else {
+		let areGamesReady = setInterval(() => {
+			if (document.readyState === "complete") {
+				loadGames(data);
+        clearInterval(areGamesReady);
+			}
+		}, 50);
+	}
 });
 
 function loadGames(data) {
