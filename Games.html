@@ -18,7 +18,19 @@
     <script src="/js/main.js"></script>
     <script src="/js/themes.js"></script>
     <script src="/js/cookie.js"></script>
-    <script src="/json/games.json"></script>
+
+	  
+	  <!-- load the JSON files here -->
+    <script type="text/javascript" language="javascript" src="jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function(e) {
+		$getJSON( "games.json", function( results ){
+			alert(result.start.count);
+		});
+	});    
+    </script>
+
+	  
        <!--thanks to @WilardzySenpai-->
     <link rel="stylesheet" href="/loading.css" />
 
@@ -104,6 +116,16 @@
       <a href="/about.html">About</a>
       
     </header>
+	                <div class="sub-header">
+    <header>
+      <a href="/">.Io Games</a>
+      <a href="/">Pokemon games</a>
+      <a href="/">Fnf Mods</a>
+      <a href="/">emulated Games</a>
+      <a href="/">Fnaf</a>
+      <a href="/">Underrated Games</a>
+    </header>
+            </div>
     <main>
       <div id="adcontainer">
         <h3><a href="ad.html">AD (click to read more):</a></h3>
