@@ -18,20 +18,13 @@
 <script src="/js/themes.js"></script>
     <script src="/js/cloaks.js"></script>
     <script src="/js/themes.js"></script>
-    <script src="/js/bower.json"></script>
 <link rel="stylesheet" href="/themes.css" />
 <link rel="stylesheet" href="/style.css" />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="pfp.css" />
-  <link rel="stylesheet" href="/pfp.js" />
-  <!-- Boxicons CSS -->
-  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
 
 
     <!-- seo + other things -->
-    <title>Profile | SlackrrGames.io</title>
+    <title>Settings | SlackrrGames.io</title>
     <link rel="icon" href="/favicon.ico" />
 
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -52,58 +45,93 @@
       <a href="/about.html">About</a>
       
     </header>
-<main>
-  <div class="profile-card">
-    <!-- Profile Image -->
-    <div class="image">
-      <img src="profile.jpg" alt="Profile Image" class="profile-img" />
-    </div>
 
-    <!-- Profile Details -->
-    <div class="text-data">
-      <span class="name">CodingLab</span>
-      <span class="job">YouTuber & Blogger</span>
-    </div>
-
-    <!-- Social Icons -->
-    <div class="media-buttons">
-      <a href="#" style="background: #4267b2" class="link">
-        <i class="bx bxl-facebook"></i>
-      </a>
-      <a href="#" style="background: #1da1f2" class="link">
-        <i class="bx bxl-twitter"></i>
-      </a>
-      <a href="#" style="background: #e1306c" class="link">
-        <i class="bx bxl-instagram"></i>
-      </a>
-      <a href="#" style="background: #ff0000" class="link">
-        <i class="bx bxl-youtube"></i>
-      </a>
-    </div>
-
-    <!-- Subscribe and Message Buttons -->
-    <div class="buttons">
-      <button class="button">Subscribe</button>
-      <button class="button">Message</button>
-    </div>
-
-    <!-- Analytics -->
-    <div class="analytics">
-      <div class="data">
-        <i class="bx bx-heart"></i>
-        <span class="number">60k</span>
+    <main>
+      <h1>Settings</h1>
+      <form action="javascript:setCloakCookie();">
+        <h3>Website Name</h3>
+        <input type="text" id="webname" name="webname" placeholder="Selenite" /><br />
+        <h3>Website Icon</h3>
+        <input type="text" id="webicon" name="webicon" placeholder="https://selenite.cc/" /><br />
+        <h3>Or select a preset:</h3>
+        <select id="presetCloaks">
+          <option value="google">Google</option>
+          <option value="canvas">Canvas</option>
+          <option value="desmos">Desmos</option>
+          <option value="drive">Google Drive</option>
+          <option value="classroom">Google Classroom</option>
+          <option value="newtab">New Tab</option>
+          <option value="docs">Google Docs</option>
+          <option value="edpuzzle">Edpuzzle</option>
+          <option value="khan">Khan Academy</option>
+          <option value="quizlet">Quizlet</option>
+          <option value="schoology">Schoology</option>
+        </select><br />
+        <input id="websubmit" class="submit" type="submit" value="Set Tab Cloak" />
+      </form>
+      <button onclick="javascript:clearCloak();">Clear your current tab cloak</button>
+      <br />
+      <div class="samerow">
+      <input type="checkbox" id="discordIcon" name="discordIcon">
+      <label for="discordIcon">Disable Discord Icon</label><br>
       </div>
-      <div class="data">
-        <i class="bx bx-message-rounded"></i>
-        <span class="number">20k</span>
+      <div class="samerow">
+        <input type="checkbox" id="blockClose" name="blockClose">
+        <label for="blockClose">Block tab from being closed</label><br>
       </div>
-      <div class="data">
-        <i class="bx bx-share"></i>
-        <span class="number">12k</span>
+      <div class="samerow">
+        <input type="checkbox" id="tabDisguise" name="tabDisguise">
+        <label for="tabDisguise">Disguise your tab when you click off (currently only Google)</label><br>
       </div>
-    </div>
-  </div>
-
+      <h3>Themes</h3>
+      <div class="samerow themebtns">
+        <button onclick="setTheme('main')" style="background-color:#CBC5EA; color: #fff; border: 5px solid #C4C6E7">slackrr.</button>
+        <button onclick="setTheme('light')" style="background-color: #bbbbbb; color: #1a1a1a; border: 5px solid #e6e6e6">light mode</button>
+        <button onclick="setTheme('dark')" style="background-color: #333333; color: #fff; border: 5px solid #444444">dark mode</button>
+        <button onclick="setTheme('egamepass')" style="background-color: #596eb1; color: #cbe0ff; border: 5px solid #5586e0">e-gamepass</button>
+        <button onclick="setTheme('cools1te')" style="background-color: #a134dc; color: #d3a4fa; border: 5px solid #b153e3">cools1te</button>
+        <button onclick="setTheme('sunset')" style="background-color: #537294; color: #fff; border: 5px solid #30719c">sunset</button>
+        <button onclick="setTheme('mountains')" style="background-color: #d37f7f; color: #fff; border: 5px solid #e28a8a">mountains</button>
+        <button onclick="setTheme('vaporwave')" style="background-color: #4b2d64; color: #fff; border: 5px solid #74568d">vaporwave</button>
+        <button onclick="setTheme('graduation')" style="background-image:url('themesbg/gradbear.png'); color: #fff;">graduation</button>
+        <button onclick="setTheme('late-registration')" style="background-image:url('themesbg/late.jpg'); color: #fff;">late registration</button>
+        <button onclick="setTheme('dropout')" style="background-image:url('themesbg/dropoutbutton.jpg'); color: #fff;">the collage dropout</button>
+        <button onclick="setTheme('tylerbirthday')" style="background-image:url('themesbg/tylerbday.png'); color: #fff;">tyler birthday!</button>
+        <button onclick="customTheme()">custom</button>
+      </div>
+      <div id="customMenu" style="display: none;">
+        <p>Input BG Color</p>
+        <input type="color" id="inputbg"/>
+        <p>Input Border Color</p>
+        <input type="color" id="inputborder"/>
+        <p>UI Background Color</p>
+        <input type="color" id="uibg"/>
+        <p>Text Color</p>
+        <input type="color" id="textcolor"/>
+        <p>Background</p>
+        <input type="color" id="bg"/>
+        <p>or select an image (click enter to set)</p>
+        <input type="text" id="bgimg" placeholder="https://selenite.cc/" /><br />
+        <!--     --inputbg: #000000;
+    --inputborder: #000000;
+    --uibg: #000000;
+    --textcolor: #000;
+    --bg: #000000; -->
+      </div>
+      <br />
+      <form action="javascript:setPanicMode();">
+        <h3 for="panic">Website URL</h3>
+        <input type="text" id="panic" name="panic" placeholder="https://google.com" /><br />
+        <input id="panic" class="submit" type="submit" value="Set Panic Mode" />
+      </form>
+      <form action="javascript:setPassword();">
+        <h3 for="pass">Password to access website</h3>
+        <input type="text" id="pass" name="pass" placeholder="password" /><br />
+        <p>If a teacher tries to copy the URL from your browser, it will require a password to access the website.</p>
+        <p>If you type a wrong password, you will be locked out for 10 minutes, likewise, if you type the right password, it'll work for 10 minutes.</p>
+        <input id="setPass" class="submit" type="submit" value="Set Password" />
+        <button id="delPass" onclick="delPassword()">Delete Password</button>
+      </form>
     </main>
 
     <footer>
