@@ -45,7 +45,6 @@ header,
   box-shadow: 0 5px 10px var(--uibg);
 }
 marquee{
-  margin-top:80px;
   align-items: center;
   border-radius: 0 0 20px 20px;
   box-shadow: 0 5px 10px var(--uibg); 
