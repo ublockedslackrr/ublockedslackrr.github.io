@@ -1,102 +1,68 @@
 [
   {
-       "name": "",
-    "directory": "",
+    "name": "GBA Emulator",
+    "directory": "gba",
+    "image": "icon.png",
+    "recommended": "1"
+  },
+  {
+    "name": "emulatorJS",
+    "directory": "emulatorjs",
+    "image": "logo.png"
+  },
+  {
+    "name": "Pokemon | FireRed",
+    "directory": "pokemon/firered",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+  {
+    "name": "Pokemon | LeafGreen",
+    "directory": "pokemon/leafgreen",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+  {
+    "name": "Pokemon | Gold",
+    "directory": "pokemon/gold",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+  {
+    "name": "Pokemon | Silver",
+    "directory": "pokemon/silver",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+  {
+    "name": "Pokemon | Ruby",
+    "directory": "pokemon/ruby",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+  {
+    "name": "Pokemon | Sapphire",
+    "directory": "pokemon/sapphire",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+    {
+    "name": "Pokemon | Crystal",
+    "directory": "pokemon/crystal",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+  {
+    "name": "Pokemon | Emerald",
+    "directory": "pokemon/emerald",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+  {
+    "name": "Pokemon | Red",
+    "directory": "pokemon/red",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
+    {
+    "name": "Pokemon | Blue",
+    "directory": "pokemon/blue",
     "image": ""
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
+    {
+    "name": "Pokemon | Yellow",
+    "directory": "pokemon/yellow",
     "image": ""
   }
 ]
