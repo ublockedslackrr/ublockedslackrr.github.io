@@ -1,4 +1,4 @@
-<img src="img/repocard.png">
+<img src="img/RepoCard.png">
   <h1 align="center">
 What is SlackrrGames?</h1>
 <p align="center">This is a repo of selenite and uses assets from car axel,seraph,and ruffel to host games with a more connected system and hopes of adding more games that are actually playable and not just for convinience.<br/>
@@ -17,6 +17,8 @@ What is SlackrrGames?</h1>
 
 ## features
 - **280+ games:** embedding, workarounds - games ranging from unity to flash to emulators and more!
+- **Tv** basically watch videos from megacloud,upcloud,etc. for free!
+- **Music** basically Listen to music from artists for free!
 - **offline mode:** download over 110+ games from the games page and run the site in a minimised state; all without an internet connection
 - **personalisation:**weekly added custom curated themes from me and community votes with unique backgrounds and colour schemes + a highly expansive custom theme editor complete with importing/exporting of themes!
 - **settings:** cloaking tab, panic key customisations, import/export data, clear site data & open games in new tabs
@@ -41,7 +43,7 @@ What is SlackrrGames?</h1>
 -harper:sharing the website.
 -m4ngo:sharing the website.
 -you:playing and viewing this project
--
+
 
 ## repurposing
 seraph & sl4ckrr is completely open source which allows you to inspect any element of the site on github, as well as being able to download assets for yourself.
