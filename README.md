@@ -1,7 +1,7 @@
 <img src="images/slackrr.jpg">
   <h1 align="center">
 What is SlackrrGames?</h1>
-<p>This is a repo of selenite and uses assets from car axel,seraph,and ruffel to host games with a more connected system and hopes of adding more games that are actually playable and not just for convinience.</p><br/>
+<p align="center">This is a repo of selenite and uses assets from car axel,seraph,and ruffel to host games with a more connected system and hopes of adding more games that are actually playable and not just for convinience.<br/>
     <a href="https://seraph.reveriestudios.online/">seriph</a>
     <a href="https://selenite.cc">selenite</a>
     ·
