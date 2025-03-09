@@ -18,6 +18,12 @@
     "recommended": "1"
   },
       {
+    "name": "EvoWorld.io",
+    "image": "world.jpeg",
+    "directory": "evoworld",
+    "recommended": "1"
+  },
+      {
     "name": "Realmz.io",
     "image": "icon.jpeg",
     "directory": "realmz",
@@ -1416,10 +1422,5 @@
     "name": "DigDig.io",
     "directory": "Digdig",
     "image": "digdig.png"
-  }
-      {
-    "name": "FlyOrDie.io",
-    "directory": "flyordie",
-    "image": "ordie.jpeg"
   }
 ]
