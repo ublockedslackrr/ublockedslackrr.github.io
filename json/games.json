@@ -1412,4 +1412,9 @@
     "directory": "slither",
     "image": "slither.png"
   }
+      {
+    "name": "DigDig.io",
+    "directory": "Digdig",
+    "image": "digdig.png"
+  }
 ]
