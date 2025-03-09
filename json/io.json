@@ -1,102 +1,86 @@
 [
+      {
+    "name": "Lordz.io",
+    "image": "lordz.png",
+    "directory": "lordz",
+  },
+      {
+    "name": "EvoWorld.io",
+    "image": "world.jpeg",
+    "directory": "evoworld",
+  },
+      {
+    "name": "Realmz.io",
+    "image": "icon.jpeg",
+    "directory": "realmz",
+  },
+      {
+    "name": "Diep.io",
+    "image": "diep.png",
+    "directory": "diep",
+  },
+     {
+    "name": "Wings.io",
+    "image": "wings.jpeg",
+    "directory": "wings",
+  },
+    {
+    "name": "Yohoho.io",
+    "image": "cover.svg",
+    "directory": "yohoho",
+  },
   {
-       "name": "",
-    "directory": "",
-    "image": ""
+    "name": "paper.io",
+    "directory": "paperio",
+    "image": "icon.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "hole.io",
+    "directory": "holeio",
+    "image": "feature800x470.png"
+  },  {
+    "name": "Krunker.io",
+    "directory": "krunker",
+    "image": "logo.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Shell Shockers.io",
+    "directory": "shellshockers",
+    "image": "icon.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "florr.io",
+    "directory": "florr.io",
+    "image": "logo.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "EggyCar",
+    "directory": "eggycar",
+    "image": "eggy.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Agar.io",
+    "directory": "agar",
+    "image": "agar.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "MooMoo.io",
+    "directory": "MooMoo",
+    "image": "MooMoo.jpg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Mope.io",
+    "directory": "mope",
+    "image": "mope.jpeg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Slither.io",
+    "directory": "slither",
+    "image": "slither.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+      {
+    "name": "DigDig.io",
+    "directory": "Digdig",
+    "image": "digdig.png"
   }
 ]
