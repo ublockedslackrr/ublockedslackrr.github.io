@@ -1,4 +1,4 @@
-<img src="images/slackrr.jpg">
+<img src="img/repocard.png">
   <h1 align="center">
 What is SlackrrGames?</h1>
 <p align="center">This is a repo of selenite and uses assets from car axel,seraph,and ruffel to host games with a more connected system and hopes of adding more games that are actually playable and not just for convinience.<br/>
