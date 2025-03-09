@@ -1004,11 +1004,6 @@
     "image": "images/icon.png"
   },
   {
-    "name": "Pokemon",
-    "directory": "pokemon",
-    "image": "logo.jpg"
-  },
-  {
     "name": "Super Smash Bros",
     "directory": "supersmashbros",
     "image": "logo.jpg"
@@ -1377,6 +1372,61 @@
     "name": "Watermelon Game",
     "directory": "watermelongame",
     "image": "assets/sprites/tittle.png"
+  },
+  {
+    "name": "Pokemon | FireRed",
+    "directory": "pokemon/firered",
+    "image": ""
+  },
+  {
+    "name": "Pokemon | LeafGreen",
+    "directory": "pokemon/leafgreen",
+    "image": ""
+  },
+  {
+    "name": "Pokemon | Gold",
+    "directory": "pokemon/gold",
+    "image": ""
+  },
+  {
+    "name": "Pokemon | Silver",
+    "directory": "pokemon/silver",
+    "image": ""
+  },
+  {
+    "name": "Pokemon | Ruby",
+    "directory": "pokemon/ruby",
+    "image": ""
+  },
+  {
+    "name": "Pokemon | Sapphire",
+    "directory": "pokemon/sapphire",
+    "image": ""
+  },
+    {
+    "name": "Pokemon | Crystal",
+    "directory": "pokemon/crystal",
+    "image": ""
+  },
+  {
+    "name": "Pokemon | Emerald",
+    "directory": "pokemon/emerald",
+    "image": ""
+  },
+  {
+    "name": "Pokemon | Red",
+    "directory": "pokemon/red",
+    "image": ""
+  },
+    {
+    "name": "Pokemon | Blue",
+    "directory": "pokemon/blue",
+    "image": ""
+  },
+    {
+    "name": "Pokemon | Yellow",
+    "directory": "pokemon/yellow",
+    "image": ""
   },
   {
     "name": "Krunker.io",
