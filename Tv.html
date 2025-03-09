@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="sl-theme-dark" lang="en">
+  <head>
+    <!-- initialize theme vars
+    https://coolors.co/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff -->
+
+    <!-- initialize externals -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/dark.css" />
+     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
+    <!-- initialize my stuff -->
+    <script src="/js/all.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/themes.js"></script>
+    <script src="/js/cookie.js"></script>
+
+	  
+	  <!-- load the JSON files here,still apart of internal -->
+    <script src="/js/games.js"></script>
+
+	  
+       <!--thanks to @WilardzySenpai-->
+    <link rel="stylesheet" href="/loading.css" />
+
+    
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+      new Crate({
+          server: '1148719137238040606', // Selenite
+          channel: '1173731814196645909' // #commands
+      })
+    </script>
+	  
+    <link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/themes.css" />
+
+    <!-- Loading screen + other things -->
+    <title>Games | slackrr.com</title>
+    <link rel="icon" href="/favicon.ico" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- toastify -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(() => {
+          const container = document.querySelector("alerts");
+          const safemodealert = container.querySelector(`sl-alert.safemodeinfo`);
+          const tooltip = document.querySelector('.manual-tooltip');
+          if (Math.random() < 0.33) {
+            safemodealert.toast();
+          } else if(Math.random() < 0.5) {
+            tooltip.open = !tooltip.open;
+            setTimeout(() => {
+              tooltip.open = !tooltip.open;
+            }, 5000)
+          }
+        }, 500);
+      });
+    </script>
+  </head>
+	
+  <alerts>
+    <sl-alert class="safemodeinfo" variant="primary" duration="6000" closable>
+      <sl-icon slot="icon" name="info-circle"></sl-icon>
+      <strong>Pro Tip:</strong><br />
+      Type "safemode" while in any game to go to Google. Go to settings to change this.
+    </sl-alert>
+  </alerts>
+	
+  <body>
+    
+    <!--LOADING SCREEN BY @WilardzySenpai 03- -->
+    
+        <div class="preloader">
+        <div class="counter">0</div>
+    </div>
+    <!-- Loading Script -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript">
+	  function counter(){
+		  var count = setInterval(function(){
+			  var c = parseInt($('.counter').text());
+			  $('.counter').text((++c).toString());
+			  if (c == 100){
+				  clearInterval(count);
+				  $('.counter').addClass('hide')
+				  $('.preloader').addClass('active')
+			  }
+        // 1-100, 1 superfast countdown 50 mild countdown and so on, the higher number the slower.
+		  },25)
+	  }
+	  counter()
+</script>
+
+
+    	<!-- <marquee> update alerts here! </marquee> -->
+
+      
+    <header>
+      <a href="/index.html">Home</a>
+      <a href="/bookmarklets.html">Bookmarklets</a>
+            <a href="/Games.html">Games</a>
+      <a href="/settings.html">Settings</a>
+      <a href="/support.html">Support</a>
+      <a id="blank" href="#">Open Blank</a>
+      <a href="/about.html">About</a>
+    </header>
+    <header>
+      <a href="/io.html">.Io Games</a>
+      <a href="/poke.html">Pokemon games</a>
+      <a href="/fnfmods.html">Fnf Mods</a>
+      <a href="/emulated.html">emulated Games</a>
+      <a href="/fnaf.html">Fnaf</a>
+      <a href="/underrated.html">Underrated Games</a>
+    </header>
+    <main>
+      <div id="adcontainer">
+        <h3><a href="ad.html">AD (disable in settings):</a></h3>
+        <script type="text/javascript">
+          atOptions = {
+            'key' : 'a4e483c304d8788fbb3f86d0fccd7dd2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+          document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/a4e483c304d8788fbb3f86d0fccd7dd2/invoke.js"></scr' + 'ipt>');
+        </script>
+      </div>
+      <input class="hiddenUpload" type="file" accept=".save" hidden />
+
+
+      <input type="text" id="gamesearch" placeholder="Type here to search.." />
+      <div class="samerow">
+        <sl-tooltip content="Remember to download your save, so you don't lose your progress." trigger="manual" class="manual-tooltip">
+          <button onclick="downloadMainSave()">Download Save</button>
+        </sl-tooltip>
+        <button id="upload" onclick="uploadMainSave()">Upload Save</button>
+      </div>
+      <div class="samerow">
+        <button id="random" onclick="selectRandomGame()">
+          Play a random game!
+        </button>
+        <button id="recommend" onclick="recommendedGames()">
+          Click to view recommended games!
+        </button>
+      </div>
+
+      <h2>Pinned Games</h2>
+      <p id="pinnedmessage">pin some games for things to show up here!</p>
+      <div id="pinned"></div>
+      
+
+      <h2>All Games</h2>
+      <div id="games">
+        <p id="message">games loading..</p>
+      </div>
+      <div id="adcontainer">
+        <h3><a href="ad.html">AD (disable in settings):</a></h3>
+        <script async="async" data-cfasync="false" src="//pl22225360.toprevenuegate.com/92108816b5da54426d1639bcbfb5785c/invoke.js"></script>
+        <div id="container-92108816b5da54426d1639bcbfb5785c"></div>
+      </div>
+
+    </main>
+
+    <footer>
+      <a href="https://github.com/ublockedslackrr/ublockedslackrr.github.io">Source Code</a>
+      <a id="panicmode">Panic Mode (useless)</a>
+      <a href="/transfer.html">Transfer your data</a>
+      <a href="https://discord.gg/7jyufnwJNf">Discord</a>
+      <a href="/suggest.html">Bugs & suggestions</a>
+      <a href="/social.html">socials</a>
+      <a href="/version.html">Version: v1.o.2 <i>BETA</i></a>
+    </footer>
+  </body>
+</html>
