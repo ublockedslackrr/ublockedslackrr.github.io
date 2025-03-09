@@ -71,40 +71,16 @@
     "directory": "space",
     "recommended": "1"
   },
-      {
-    "name": "π Client",
-    "image": "cover.svg",
-    "directory": "pi",
-    "recommended": "1"
-  },
      {
     "name": "Precision Client",
     "image": "cover.svg",
     "directory": "pre",
     "recommended": "1"
   },
-    {
-    "name": "Shadow Client",
-    "image": "cover.svg",
-    "directory": "shadow",
-    "recommended": "1"
-  },
   {
     "name": "Windows XP",
     "image": "cover.svg",
     "directory": "xp",
-    "recommended": "1"
-  },
-             {
-    "name": "Dragon Client",
-    "image": "cover.svg",
-    "directory": "drag",
-    "recommended": "1"
-  },
-            {
-    "name": "Ayuncraft 1.5.2",
-    "image": "cover.svg",
-    "directory": "ayun",
     "recommended": "1"
   },
       {
@@ -135,12 +111,6 @@
     "name": "Spank the Monkey",
     "image": "cover.svg",
     "directory": "spankthemonkey",
-    "recommended": "1"
-  },
-      {
-    "name": "CMM Client",
-    "image": "cover.svg",
-    "directory": "cmm-client",
     "recommended": "1"
   },
      {
