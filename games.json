@@ -180,11 +180,6 @@
     "recommended": "1"
   },
   {
-    "name": "Resent Client",
-    "directory": "online-mc",
-    "image": "logo.png"
-  },
-  {
     "name": "Friday Night Funkin",
     "directory": "fridaynightfunkin",
     "image": "fnf-icon.jpg",
