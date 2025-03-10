@@ -1,102 +1,22 @@
 [
   {
-       "name": "",
-    "directory": "",
-    "image": ""
+    "name": "Five Nights at Freddy's",
+    "directory": "fnaf",
+    "image": "splash.jpg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Five Nights at Freddy's 2",
+    "directory": "fnaf2",
+    "image": "project/splash.webp"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Five Nights at Freddy's 3",
+    "directory": "fnaf3",
+    "image": "project/splash.webp"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Five Nights at Freddy's 4",
+    "directory": "fnaf4",
+    "image": "project/splash.webp"
   }
 ]
