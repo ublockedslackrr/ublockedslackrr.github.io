@@ -142,7 +142,7 @@ img {
   aspect-ratio: auto;
   user-select: none;
   filter: drop-shadow(var(--shadow));
-  image-rendering: pixelated;
+  image-rendering: auto;
 }
 
 .img-container a {
