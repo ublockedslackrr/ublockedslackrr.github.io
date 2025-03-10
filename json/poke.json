@@ -1,102 +1,57 @@
 [
   {
-       "name": "",
-    "directory": "",
-    "image": ""
+    "name": "Pokemon | FireRed",
+    "directory": "pokemon/firered",
+    "image": "img/IMG_FIRE.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Pokemon | LeafGreen",
+    "directory": "pokemon/leafgreen",
+    "image": "img/IMG_LEAF.jpeg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Pokemon | Gold",
+    "directory": "pokemon/gold",
+    "image": "img/IMG_GOLD.jpeg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Pokemon | Silver",
+    "directory": "pokemon/silver",
+    "image": "img/IMG_SILVER.jpeg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Pokemon | Ruby",
+    "directory": "pokemon/ruby",
+    "image": "img/IMG_RUBY.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Pokemon | Sapphire",
+    "directory": "pokemon/sapphire",
+    "image": "img/IMG_SAPPHIRE.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+    {
+    "name": "Pokemon | Crystal",
+    "directory": "pokemon/crystal",
+    "image": "img/IMG_CRYSTAL.png"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Pokemon | Emerald",
+    "directory": "pokemon/emerald",
+    "image": "img/IMG_EMERALD.jpeg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+  {
+    "name": "Pokemon | Red",
+    "directory": "pokemon/red",
+    "image": "img/IMG_RED.jpeg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+    {
+    "name": "Pokemon | Blue",
+    "directory": "pokemon/blue",
+    "image": "img/IMG_BLUE.jpeg"
   },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
-  },
-{
-       "name": "",
-    "directory": "",
-    "image": ""
+    {
+    "name": "Pokemon | Yellow",
+    "directory": "pokemon/yellow",
+    "image": "img/IMG_YELLOW.jpeg"
   }
 ]
