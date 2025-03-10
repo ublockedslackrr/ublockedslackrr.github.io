@@ -1365,57 +1365,57 @@
   {
     "name": "Pokemon | FireRed",
     "directory": "pokemon/firered",
-    "image": ""
+    "image": "img/IMG_FIRE.png"
   },
   {
     "name": "Pokemon | LeafGreen",
     "directory": "pokemon/leafgreen",
-    "image": ""
+    "image": "img/IMG_LEAF.jpeg"
   },
   {
     "name": "Pokemon | Gold",
     "directory": "pokemon/gold",
-    "image": ""
+    "image": "img/IMG_GOLD.jpeg"
   },
   {
     "name": "Pokemon | Silver",
     "directory": "pokemon/silver",
-    "image": ""
+    "image": "img/IMG_SILVER.jpeg"
   },
   {
     "name": "Pokemon | Ruby",
     "directory": "pokemon/ruby",
-    "image": ""
+    "image": "img/IMG_RUBY.png"
   },
   {
     "name": "Pokemon | Sapphire",
     "directory": "pokemon/sapphire",
-    "image": ""
+    "image": "img/IMG_SAPPHIRE.png"
   },
     {
     "name": "Pokemon | Crystal",
     "directory": "pokemon/crystal",
-    "image": ""
+    "image": "img/IMG_CRYSTAL.png"
   },
   {
     "name": "Pokemon | Emerald",
     "directory": "pokemon/emerald",
-    "image": ""
+    "image": "img/IMG_EMERALD.jpeg"
   },
   {
     "name": "Pokemon | Red",
     "directory": "pokemon/red",
-    "image": ""
+    "image": "img/IMG_RED.jpeg"
   },
     {
     "name": "Pokemon | Blue",
     "directory": "pokemon/blue",
-    "image": ""
+    "image": "img/IMG_BLUE.jpeg"
   },
     {
     "name": "Pokemon | Yellow",
     "directory": "pokemon/yellow",
-    "image": ""
+    "image": "img/IMG_YELLOW.jpeg"
   },
   {
     "name": "Krunker.io",
