@@ -1361,61 +1361,60 @@
     "name": "Watermelon Game",
     "directory": "watermelongame",
     "image": "assets/sprites/tittle.png"
-  },
-  {
+  },  {
     "name": "Pokemon | FireRed",
     "directory": "pokemon/firered",
-    "image": "img/IMG_FIRE.png"
+    "image": "pokemon/firered/cover.png"
   },
   {
     "name": "Pokemon | LeafGreen",
     "directory": "pokemon/leafgreen",
-    "image": "img/IMG_LEAF.jpeg"
+    "image": "pokemon/leafgreen/cover.png"
   },
   {
     "name": "Pokemon | Gold",
     "directory": "pokemon/gold",
-    "image": "img/IMG_GOLD.jpeg"
+    "image": "pokemon/gold/cover.png"
   },
   {
     "name": "Pokemon | Silver",
     "directory": "pokemon/silver",
-    "image": "img/IMG_SILVER.jpeg"
+    "image": "pokemon/silver/cover.png"
   },
   {
     "name": "Pokemon | Ruby",
     "directory": "pokemon/ruby",
-    "image": "img/IMG_RUBY.png"
+    "image": "pokemon/ruby/cover.png"
   },
   {
     "name": "Pokemon | Sapphire",
     "directory": "pokemon/sapphire",
-    "image": "img/IMG_SAPPHIRE.png"
+    "image": "pokemon/sapphire/cover.png"
   },
     {
     "name": "Pokemon | Crystal",
     "directory": "pokemon/crystal",
-    "image": "img/IMG_CRYSTAL.png"
+    "image": "pokemon/crystal/cover.png"
   },
   {
     "name": "Pokemon | Emerald",
     "directory": "pokemon/emerald",
-    "image": "img/IMG_EMERALD.jpeg"
+    "image": "pokemon/emerald/cover.png"
   },
   {
     "name": "Pokemon | Red",
     "directory": "pokemon/red",
-    "image": "img/IMG_RED.jpeg"
+    "image": "pokemon/red/cover.png"
   },
     {
     "name": "Pokemon | Blue",
     "directory": "pokemon/blue",
-    "image": "img/IMG_BLUE.jpeg"
+    "image": "pokemon/blue/cover.png"
   },
     {
     "name": "Pokemon | Yellow",
     "directory": "pokemon/yellow",
-    "image": "img/IMG_YELLOW.jpeg"
+    "image": "pokemon/yellow/cover.png"
   },
   {
     "name": "Krunker.io",
