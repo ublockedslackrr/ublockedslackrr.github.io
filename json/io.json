@@ -2,32 +2,32 @@
       {
     "name": "Lordz.io",
     "image": "lordz.png",
-    "directory": "lordz",
+    "directory": "lordz"
   },
       {
     "name": "EvoWorld.io",
     "image": "world.jpeg",
-    "directory": "evoworld",
+    "directory": "evoworld"
   },
       {
     "name": "Realmz.io",
     "image": "icon.jpeg",
-    "directory": "realmz",
+    "directory": "realmz"
   },
       {
     "name": "Diep.io",
     "image": "diep.png",
-    "directory": "diep",
+    "directory": "diep"
   },
      {
     "name": "Wings.io",
     "image": "wings.jpeg",
-    "directory": "wings",
+    "directory": "wings"
   },
     {
     "name": "Yohoho.io",
     "image": "cover.svg",
-    "directory": "yohoho",
+    "directory": "yohoho"
   },
   {
     "name": "paper.io",
