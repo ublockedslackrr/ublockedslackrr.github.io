@@ -2,56 +2,56 @@
   {
     "name": "Pokemon | FireRed",
     "directory": "pokemon/firered",
-    "image": "pokemon/firered/cover.png"
+    "image": "cover.png"
   },
   {
     "name": "Pokemon | LeafGreen",
     "directory": "pokemon/leafgreen",
-    "image": "pokemon/leafgreen/cover.png"
+    "image": "cover.png"
   },
   {
     "name": "Pokemon | Gold",
     "directory": "pokemon/gold",
-    "image": "pokemon/gold/cover.png"
+    "image": "cover.png"
   },
   {
     "name": "Pokemon | Silver",
     "directory": "pokemon/silver",
-    "image": "pokemon/silver/cover.png"
+    "image": "cover.png"
   },
   {
     "name": "Pokemon | Ruby",
     "directory": "pokemon/ruby",
-    "image": "pokemon/ruby/cover.png"
+    "image": "cover.png"
   },
   {
     "name": "Pokemon | Sapphire",
     "directory": "pokemon/sapphire",
-    "image": "pokemon/sapphire/cover.png"
+    "image": "cover.png"
   },
     {
     "name": "Pokemon | Crystal",
     "directory": "pokemon/crystal",
-    "image": "pokemon/crystal/cover.png"
+    "image": "cover.png"
   },
   {
     "name": "Pokemon | Emerald",
     "directory": "pokemon/emerald",
-    "image": "pokemon/emerald/cover.png"
+    "image": "cover.png"
   },
   {
     "name": "Pokemon | Red",
     "directory": "pokemon/red",
-    "image": "pokemon/red/cover.png"
+    "image": "cover.png"
   },
     {
     "name": "Pokemon | Blue",
     "directory": "pokemon/blue",
-    "image": "pokemon/blue/cover.png"
+    "image": "cover.png"
   },
     {
     "name": "Pokemon | Yellow",
     "directory": "pokemon/yellow",
-    "image": "pokemon/yellow/cover.png"
+    "image": "cover.png"
   }
 ]
